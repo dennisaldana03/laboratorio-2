@@ -1,0 +1,246 @@
+/* ----------menu */
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* variables */
+
+:root{
+    --negro:#000000;
+    --verde:#1dc72b;
+    --gris: #2b2b2bc0;
+    --blanco:#ffffff;
+}
+
+.header{
+    background-color: var(--verde);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 50px;
+}
+.logo p {
+    font-size: 50px;
+    color: var(--negro);
+    font-family: 'Bebas Neue', cursive; ;
+}
+
+.contenedor {
+    margin-right: 50px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+.menu a {
+    margin: 30px;
+    text-decoration: none;
+    color: var(--blanco);
+    font-family: fantasy;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.menu a:hover {
+    background-color: var(--gris);
+
+}
+/* -----------fin menu */
+/* -----tarjetas */
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.tarjeta{
+    width: 220px;
+    height: 360px;
+    background-color: var(--verde);
+    border-radius: 25px;
+    padding: 50px;
+    border: 5px solid var(--negro);
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.tarjeta img {
+    padding-left: 30px;
+    width: 90px;
+}
+
+.tarjeta p {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.title{
+    text-align: center;
+    color:var(--blanco);
+    margin-top: 120px;
+    font-size: 70px;
+}
+
+.tarjeta:hover{
+    background-color: var(--negro);
+    color: var(--blanco);
+    transition: 540ms;
+}
+
+.tarjeta a {
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 18px;
+    background-color: var(--verde);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.body :hover{
+    background-color: var(--verde);
+    transition: 800ms;
+}
+
+.tarjeta a:hover {
+    background-color:var(--gris);
+    transition: 500ms;
+}
+/* ----------fin tarjetas */
+  /**--------------imagenes*  */
+.imagen{
+    border-radius: 15px;
+    height: 500px;
+    width: 500;
+}
+.imagenes2 {
+    border-radius: 15px;
+    height: 500px;
+    width: 500px;
+}
+.bene{
+    font-size: 25px;
+    font-family: fantasy;
+}
+.desc  {
+    font-family: monospace;
+    font-size: 15px;
+}
+/* --------------------fin imagenes *
+/* --------comentarios */
+.contenedor2{
+display: flex;
+}
+.comen{
+    font-size: 25px;
+}
+.imagenp1{
+    border-radius: 15px;
+    height: 250px;
+    width: 300px;
+}
+.comen2{
+    font-size: 25px;
+}
+.imagenp2{
+    border-radius: 15px;
+    height: 250px;
+    width: 300px;
+}
+.comen3{
+    font-size: 25px;
+}
+.imagenp3{
+    border-radius: 15px;
+    height: 250px;
+    width: 300px;
+}
+.contenedor2 p{
+    text-align: center;
+
+}
+.nombre{
+    text-align: center;
+    font-size: 30px;
+}
+/* fin comentarios */
+/* mision y vision */
+body{
+    background-color: rgb(223, 41, 198);
+}
+
+.vi{
+    font-family:'Anton', sans-serif;
+    font-size: 25px;
+    
+}
+.mi{
+    font-family:'Anton', sans-serif;
+    font-size: 25px;
+   
+}
+.mision{
+    font-family:'Anton', sans-serif;
+    font-size: 45px;
+    text-align: center;
+}
+.vision{
+        font-family:'Anton', sans-serif;
+        font-size: 45px;
+        text-align: center;
+}
+/* fin mision y vision */
+/* formulario */
+.formulario{
+    background-color: var(--gris);
+    height: 550 px;
+    width: 550px;
+    font-size: 25px;
+}
+.input{
+    border-radius: 20px;
+    height: 45px;
+    width: 75px;
+}
+/* fin formulario */
+/* productos */
+.importantes{
+    font-size: 45px;
+    font-style: unset;
+    text-align: center;
+    flex-direction: row;
+}
+
+.conejo{
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+}
+.conejo2{
+    font-size: 20px;
+}
+/* fin productos */
+/* botones */
+.volver a{
+    background-color: yellow;
+    color: var(--negro);
+    transition: 500ms;
+    height: 450px;
+    width: 450px;
+}
+.volver2 a{
+    background-color: yellow;
+    color: var(--negro);
+    transition: 500ms;
+    height: 450px;
+    width: 450px;
+    /* fin botones */
+}
